@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">屏幕属性计算器</string>
+    <string name="action_settings">设置</string>
+    <string name="title_section1">DP/PX 转换</string>
+    <string name="title_section2">像素密度计算</string>
+    <string name="fragment_caldp_hint">输入</string>
+    <string name="fragment_caldp_clear">清空</string>
+    	<string name="fragment_caldp_result">结果:</string>
+    	<string name="fragment_caldp_inputText">输入一个数:</string>
+    	
+</resources>
