@@ -2,6 +2,105 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
+
+    <EditText
+        android:id="@+id/editText_fragment_caldensity_width"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText_fragment_caldensity_length"
+        android:ems="10"
+        android:hint="@string/fragment_caldensity_width_hint"
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/editText_fragment_caldensity_inch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner_fragment_caldensity_unit"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="@string/editText_fragment_caldensity_inch_hint"
+        android:inputType="number|numberSigned|numberDecimal" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText_fragment_caldensity_length"
+        android:layout_alignBottom="@+id/editText_fragment_caldensity_length"
+        android:layout_toRightOf="@+id/editText_fragment_caldensity_length"
+        android:text="px"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText_fragment_caldensity_width"
+        android:layout_alignBottom="@+id/editText_fragment_caldensity_width"
+        android:layout_toRightOf="@+id/editText_fragment_caldensity_width"
+        android:text="px"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinner_fragment_caldensity_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/editText_fragment_caldensity_inch" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/fragment_caldp_result"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView_fragment_caldensity_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_fragment_caldensity_result"
+        android:layout_marginTop="20dp"
+        android:text="@string/fragment_caldp_inputText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView_fragment_caldensity_result_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_fragment_caldensity_result"
+        android:layout_alignBottom="@+id/textView_fragment_caldensity_result"
+        android:layout_toRightOf="@+id/textView_fragment_caldensity_result"
+        android:text="dpi"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText_fragment_caldensity_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:ems="10"
+        android:hint="@string/fragment_cladensity_length_hint"
+        android:inputType="number|numberSigned|numberDecimal" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>

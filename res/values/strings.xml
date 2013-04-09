@@ -8,5 +8,8 @@
     <string name="fragment_caldp_hint">input</string>
 	<string name="fragment_caldp_clear">clear</string>
 	<string name="fragment_caldp_result">Results:</string>
-	<string name="fragment_caldp_inputText">please input a number:</string>
+	<string name="fragment_caldp_inputText">please input:</string>
+	<string name="fragment_caldensity_width_hint">input screen width</string>
+	<string name="fragment_cladensity_length_hint">input screen length</string>
+	<string name="editText_fragment_caldensity_inch_hint">input screen dimensions</string>
 </resources>

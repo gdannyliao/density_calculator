@@ -58,7 +58,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
@@ -68,12 +68,12 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView_fragment_caldensity_result_unit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_alignParentLeft="false"
-        android:layout_below="@+id/textView4"
+        android:layout_below="@+id/textView_"
         android:text="xxdpi"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -112,8 +112,8 @@
         android:id="@+id/textView_unit4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView4"
-        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignBaseline="@+id/textView_"
+        android:layout_alignBottom="@+id/textView_"
         android:layout_alignParentRight="false"
         android:layout_alignRight="@+id/textView_unit1"
         android:text="px"
@@ -204,8 +204,8 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView5"
-        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView_fragment_caldensity_result_unit"
+        android:layout_below="@+id/textView_fragment_caldensity_result_unit"
         android:layout_marginTop="20dp"
         android:text="@string/fragment_caldp_inputText"
         android:textAppearance="?android:attr/textAppearanceLarge" />
