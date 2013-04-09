@@ -75,6 +75,8 @@ public class MainActivity extends FragmentActivity {
 			case 0:
 				Fragment fgm = CalDpFragment.newInstance();
 				return fgm;
+			case 1:
+				return CalDensityFragment.newInstance();
 			default:
 				Fragment fragment = new DummySectionFragment();
 				Bundle args = new Bundle();
