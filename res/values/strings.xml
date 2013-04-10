@@ -6,10 +6,11 @@
     <string name="title_section1">DP/PX switch</string>
     <string name="title_section2">density calculate</string>
     <string name="fragment_caldp_hint">input</string>
-	<string name="fragment_caldp_clear">clear</string>
+	<string name="text_clear">clear</string>
 	<string name="fragment_caldp_result">Results:</string>
 	<string name="fragment_caldp_inputText">please input:</string>
 	<string name="fragment_caldensity_width_hint">input screen width</string>
-	<string name="fragment_cladensity_length_hint">input screen length</string>
+	<string name="fragment_caldensity_length_hint">input screen length</string>
 	<string name="editText_fragment_caldensity_inch_hint">input screen dimensions</string>
+	<string name="fragment_caldensity_calculate">=</string>
 </resources>

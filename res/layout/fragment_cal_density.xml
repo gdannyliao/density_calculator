@@ -11,7 +11,7 @@
         android:layout_below="@+id/textView4"
         android:layout_marginLeft="10dp"
         android:ems="10"
-        android:hint="@string/fragment_cladensity_length_hint"
+        android:hint="@string/fragment_caldensity_length_hint"
         android:inputType="number|numberSigned|numberDecimal" >
 
         <requestFocus />
@@ -105,5 +105,23 @@
         android:layout_toRightOf="@+id/textView_fragment_caldensity_result"
         android:text="dpi"
         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button_fragment_caldensity_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_fragment_caldensity_result"
+        android:layout_below="@+id/editText_fragment_caldensity_inch"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_clear" />
+
+    <Button
+        android:id="@+id/button_fragment_caldensity_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_fragment_caldensity_clear"
+        android:layout_alignBottom="@+id/button_fragment_caldensity_clear"
+        android:layout_alignRight="@+id/editText_fragment_caldensity_inch"
+        android:text="@string/fragment_caldensity_calculate" />
 
 </RelativeLayout>

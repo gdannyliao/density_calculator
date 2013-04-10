@@ -1,6 +1,8 @@
 package danny.liao.screencalculator.ui;
 
 import danny.liao.densitycalculator.R;
+import danny.liao.screencalculator.util.DensityCalculator;
+import danny.liao.screencalculator.util.DimensionCalculator;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -32,7 +34,19 @@ public class CalDensityFragment extends Fragment {
 		
 		final Spinner unitSpinner = (Spinner) layout.findViewById(R.id.spinner_fragment_caldensity_unit);
 		
+		DensityCalculator densityCalculator = new DensityCalculator();
+		DimensionCalculator dimensionCalculator = new DimensionCalculator();
 		
+		layout.findViewById(R.id.button_fragment_caldensity_calculate).setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				double length = Double.parseDouble(lengthInput.getText().toString());
+				double width = Double.parseDouble(widthInput.getText().toString());
+				double dimension = Double.parseDouble(dimensionInput.getText().toString());
+			}
+		});
 		return layout;
 	}
 	
