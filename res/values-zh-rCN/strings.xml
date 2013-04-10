@@ -12,5 +12,6 @@
     <string name="fragment_caldensity_width_hint">请输入屏幕宽度</string>
     <string name="fragment_cladensity_length_hint">请输入屏幕长度</string>
     <string name="editText_fragment_caldensity_inch_hint">请输入屏幕尺寸</string>
+    <string name="arg_hint">请输入正确的参数</string>
 
 </resources>

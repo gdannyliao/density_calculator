@@ -13,7 +13,7 @@
         android:layout_below="@+id/textView7"
         android:ems="10"
         android:hint="@string/fragment_caldp_hint"
-        android:inputType="number|numberSigned|numberDecimal" >
+        android:inputType="number|numberDecimal" >
 
         <requestFocus />
     </EditText>

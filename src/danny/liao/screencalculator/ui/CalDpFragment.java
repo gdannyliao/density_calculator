@@ -1,5 +1,7 @@
 package danny.liao.screencalculator.ui;
 
+import java.text.DecimalFormat;
+
 import danny.liao.densitycalculator.R;
 import danny.liao.screencalculator.util.DpCalculator;
 import danny.liao.screencalculator.util.PxCalculator;
@@ -93,7 +95,6 @@ public class CalDpFragment extends Fragment{
 					break;
 				case 1:
 					textView.setText("px");
-
 					break;
 				}
 				
@@ -156,6 +157,7 @@ public class CalDpFragment extends Fragment{
 				unit5.setText(unit);
 			}
 		});
+		final DecimalFormat df = new DecimalFormat("##0.000");
 		//when the text change , it will calculate and show the results depends by different model
 		inputEdit.addTextChangedListener(new TextWatcher() {
 			
@@ -172,7 +174,7 @@ public class CalDpFragment extends Fragment{
 			public void afterTextChanged(Editable s) {
 				double num = 0;
 				
-				if(s.length() > 0){
+				if(s.length() > 0 && !s.toString().equals(".")){
 					 num = Double.valueOf(s.toString());
 				}
 				
@@ -184,11 +186,11 @@ public class CalDpFragment extends Fragment{
 				}
 				
 				if(results.length > 1){
-					result1.setText(String.valueOf(results[0]));
-					result2.setText(String.valueOf(results[1]));
-					result3.setText(String.valueOf(results[2]));
-					result4.setText(String.valueOf(results[3]));
-					result5.setText(String.valueOf(results[4]));
+					result1.setText(String.valueOf(df.format(results[0])));
+					result2.setText(String.valueOf(df.format(results[1])));
+					result3.setText(String.valueOf(df.format(results[2])));
+					result4.setText(String.valueOf(df.format(results[3])));
+					result5.setText(String.valueOf(df.format(results[4])));
 				} else {
 					String nullRes = "0";
 					result1.setText(nullRes);

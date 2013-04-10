@@ -13,4 +13,5 @@
 	<string name="fragment_caldensity_length_hint">input screen length</string>
 	<string name="editText_fragment_caldensity_inch_hint">input screen dimensions</string>
 	<string name="fragment_caldensity_calculate">=</string>
+	<string name="arg_hint">please input correct arguments</string>
 </resources>

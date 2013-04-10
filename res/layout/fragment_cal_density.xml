@@ -12,7 +12,7 @@
         android:layout_marginLeft="10dp"
         android:ems="10"
         android:hint="@string/fragment_caldensity_length_hint"
-        android:inputType="number|numberSigned|numberDecimal" >
+        android:inputType="number|numberDecimal" >
 
         <requestFocus />
     </EditText>
@@ -24,20 +24,23 @@
         android:layout_alignLeft="@id/editText_fragment_caldensity_length"
         android:layout_alignParentLeft="false"
         android:layout_below="@id/editText_fragment_caldensity_length"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="@string/fragment_caldensity_width_hint"
-        android:inputType="number|numberSigned|numberDecimal" />
+        android:inputType="number|numberDecimal" />
 
     <EditText
         android:id="@+id/editText_fragment_caldensity_inch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/spinner_fragment_caldensity_unit"
         android:layout_alignLeft="@+id/editText_fragment_caldensity_length"
         android:layout_alignParentLeft="false"
+        android:layout_below="@+id/editText_fragment_caldensity_width"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="@string/editText_fragment_caldensity_inch_hint"
-        android:inputType="number|numberSigned|numberDecimal" >
+        android:inputType="number|numberDecimal" >
+
     </EditText>
 
     <TextView
@@ -64,7 +67,8 @@
         android:id="@+id/spinner_fragment_caldensity_unit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_alignBottom="@+id/editText_fragment_caldensity_inch"
+        android:layout_alignTop="@+id/editText_fragment_caldensity_inch"
         android:layout_toRightOf="@+id/editText_fragment_caldensity_inch" />
 
     <TextView
@@ -102,6 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView_fragment_caldensity_result"
         android:layout_alignBottom="@+id/textView_fragment_caldensity_result"
+        android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView_fragment_caldensity_result"
         android:text="dpi"
         android:textAppearance="?android:attr/textAppearanceMedium" />
