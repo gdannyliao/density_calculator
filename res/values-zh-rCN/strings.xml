@@ -5,12 +5,12 @@
     <string name="action_settings">设置</string>
     <string name="title_section1">DP/PX 转换</string>
     <string name="title_section2">像素密度计算</string>
-    <string name="fragment_caldp_hint">输入</string>
+    <string name="fragment_caldp_hint">dp或px的值</string>
     <string name="text_clear">清空</string>
     <string name="fragment_caldp_result">结果:</string>
     <string name="fragment_caldp_inputText">请输入:</string>
     <string name="fragment_caldensity_width_hint">请输入屏幕宽度</string>
-    <string name="fragment_cladensity_length_hint">请输入屏幕长度</string>
+    <string name="fragment_caldensity_length_hint">请输入屏幕长度</string>
     <string name="editText_fragment_caldensity_inch_hint">请输入屏幕尺寸</string>
     <string name="arg_hint">请输入正确的参数</string>
 

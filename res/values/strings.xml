@@ -5,7 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_section1">DP/PX switch</string>
     <string name="title_section2">density calculate</string>
-    <string name="fragment_caldp_hint">input</string>
+    <string name="fragment_caldp_hint">number of dp or px</string>
 	<string name="text_clear">clear</string>
 	<string name="fragment_caldp_result">Results:</string>
 	<string name="fragment_caldp_inputText">please input:</string>
